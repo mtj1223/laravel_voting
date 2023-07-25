@@ -57,6 +57,16 @@
 
         @endforeach
     </div>
+    <div class="row mt-4">
+        <h3>Do these votes really matter?</h3>
+        <p>
+            No, these votes do not matter because decisions are made with public votes. Matters are decided by the
+            rich and powerful people in the locked rooms.
+        </p>
+        <p>
+            Neither you nor your votes matter. This is just a digital voting system for demo purpose.
+        </p>
+    </div>
 </div>
 
 <!-- Bootstrap JS (Popper.js and jQuery are required for Bootstrap) -->

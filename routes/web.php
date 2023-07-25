@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('voting');
 });
 
-Route::controller(\App\Http\Controllers\VotesController::class)->prefix('voting')->group(function () {
+Route::controller(\App\Http\Controllers\VotesController::class)->group(function () {
     Route::get('/', 'index');
     Route::post('vote', 'vote')->name('vote');
 
